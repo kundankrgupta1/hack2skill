@@ -1,0 +1,56 @@
+.skew-bg-hero::before {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 200px;
+	background-color: #F9B800;
+	clip-path: polygon(100% 0, 0 100%, 100% 100%);
+}
+
+.skew-bg::before {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 200px;
+	background-color: #000;
+	clip-path: polygon(100% 0, 0 100%, 100% 100%);
+}
+
+
+.skew-bg-company::before {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 400px;
+	background-color: #F9B800;
+	clip-path: polygon(100% 0, 0 100%, 100% 100%);
+}
+
+.skew-bg-company2::before {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 200px;
+	background-color: black;
+	clip-path: polygon(100% 0, 0 100%, 100% 100%);
+}
+
+
+.skew-bg-accordion::before {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 200px;
+	background-color: #FEEDBC;
+	clip-path: polygon(100% 0, 0 100%, 100% 100%);
+}

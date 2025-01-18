@@ -1,0 +1,15 @@
+@keyframes a1 {
+	0% {
+		transform: rotateZ(135deg);
+	}
+	50% {
+		transform: rotateZ(45deg);
+	}
+	100% {
+		transform: rotateZ(90deg);
+	}
+}
+
+button:hover span {
+	animation: a1 0.4s forwards;
+}

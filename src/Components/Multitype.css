@@ -1,0 +1,14 @@
+@keyframes slide {
+	40%, 60% {
+	  left: calc(100% + 4px);
+	}
+	100% {
+	  left: 0%;
+	}
+  }
+  
+  .sec-text span {
+	position: absolute;
+	animation: slide 4s steps(12) infinite;
+  }
+  
